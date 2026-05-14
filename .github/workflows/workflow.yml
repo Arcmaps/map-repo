@@ -30,7 +30,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y cron curl zip
-          curl -O https://bootstrap.pypa.io/get-pip.py
+          curl -O https://bootstrap.pypa.io/pip/3.9/get-pip.py
           python3 get-pip.py
           pip3 install awscli --upgrade
 
